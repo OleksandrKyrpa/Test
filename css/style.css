@@ -1,0 +1,139 @@
+/*GENERAL STYLES*/
+body {
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-size: 13px;
+	line-height: 1.3em;
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+/*header*/
+.header {
+	padding: 50px 0px;
+	background-color: rgb(255, 235, 215);
+}
+.header h1,
+.header h2 {
+	color: rgb(139, 69, 19);
+	text-align: center;
+}
+/*navigation*/
+.page-navigation {
+	background-color: rgb(105, 105, 105);
+	border-color: rgb(160, 82, 45);
+	min-height: 70px;
+}
+.page-navigation li {
+	float: left;
+	width: 100px;
+}
+.page-navigation a {
+	display: block;
+	color: rgb(255, 215, 0);
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+.page-navigation li a:hover {
+	color: rgb(255, 0, 0);
+	background-color: rgb(244, 164, 96);
+
+}
+
+/*login*/
+.login {
+	padding: 15px 0px;
+	float: right;
+}
+.login input[type="text"],
+.login input[type="password"] {
+	padding: 5px;
+	margin-right: 5px;
+	border: 1px solid transparent;
+	border: 10px;
+	outline: none;
+}
+.login input[type="submit"] {
+	padding: 5px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	outline: none;
+}
+.login input[type="submit"]:hover, button:hover {
+	background-color: rgb(244, 164, 96);
+	color: rgb(255, 0, 0); 
+}
+.main {
+	background-color:  rgb(255, 248,220);
+}
+.collections {
+	overflow: auto;
+}
+.collection-title {
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+	font-size: 36px;
+}
+.collection-title small {
+	color: red;
+	font-size: 70%;
+}
+.collection-item-outer {
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 33.3333%;
+	box-sizing: border-box;
+}
+.collections > div:first-child {
+	padding-left: 0;
+}
+.collections > div:last-child {
+	padding-right: 0;
+}
+.collection-item {
+	border: 1px solid color: rgb(128, 0, 0);
+}
+.collection-item img, video {
+	width: 100%;
+}
+.collection-text {
+	padding: 0 20px 20px 20px;
+}
+.collection-text h3 {
+	color: rgb(255, 215, 0);
+	overflow: hidden;
+}
+.collection-text p {
+	height: 80px;
+	overflow: hidden;
+	/*white-space: nowrap;*/
+	text-overflow: ellipsis;
+}
+.collectio-text button {
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	outline: none;
+}
+.footer {
+	background-color: rgb(139, 0, 0);
+	color: rgb(255, 215, 0);
+	padding: 20px 0;
+	margin-top: 30px;
+}
